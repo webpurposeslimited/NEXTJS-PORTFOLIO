@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Aceternity UI utility classes */
+.animate-text-gradient {
+  animation: text-gradient 3s linear infinite;
+  background-size: 400% 100%;
+}
+
+.animate-gradient {
+  animation: gradient 15s ease infinite;
+  background-size: 400% 100%;
+}
+
+.bg-grid-white {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.05)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+}
+
+.bg-grid-black-100 {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(0 0 0 / 0.05)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+}
+
+.scroll-highlight {
+  animation: scroll-highlight-fade 1s ease;
+  box-shadow: 0 0 0 4px #00d8ff, 0 0 10px 4px #00d8ff;
+  border-radius: 1rem;
+}
+
+@keyframes scroll-highlight-fade {
+  0% {
+    box-shadow: 0 0 0 8px #00d8ff, 0 0 16px 8px #00d8ff;
+    background: rgba(0, 216, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0px #00d8ff, 0 0 0 0px #00d8ff;
+    background: transparent;
+  }
+}
+
+
+
+
+@layer base {
+  :root {
+    /* Dark theme with Cyan accents */
+    --background: 225 6% 6%;
+    /* Very dark background (#0f1015) */
+    --foreground: 0 0% 100%;
+    /* White */
+    --card: 220 6% 10%;
+    /* #17181e - Dark card background */
+    --card-foreground: 0 0% 100%;
+    /* White */
+    --popover: 220 6% 12%;
+    /* #1a1b22 - Dark popover background */
+    --popover-foreground: 0 0% 100%;
+    /* White */
+    --primary: 187 100% 42%;
+    /* #00d8ff - Bright cyan */
+    --primary-foreground: 225 6% 6%;
+    /* Same as background for contrast */
+    --secondary: 187 92% 26%;
+    /* #007a8f - Darker cyan for secondary */
+    --secondary-foreground: 220 13% 95%;
+    --muted: 220 6% 12%;
+    /* Dark muted background */
+    --muted-foreground: 220 13% 65%;
+    /* Brighter muted text for better readability */
+    --accent: 187 100% 50%;
+    /* #00e6ff - Brightest cyan for accents */
+    --accent-foreground: 225 6% 6%;
+    /* Same as background */
+    --destructive: 0 84% 60%;
+    /* Red for errors - unchanged */
+    --destructive-foreground: 220 13% 95%;
+    --border: 220 6% 15%;
+    /* #1e1f27 - Darker border */
+    --input: 220 6% 15%;
+    --ring: 187 100% 42%;
+    /* Match primary cyan */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 225 6% 6%;
+    /* Very dark background (#0f1015) */
+    --foreground: 220 13% 95%;
+    --card: 220 6% 10%;
+    /* #17181e - Dark card background */
+    --card-foreground: 220 13% 95%;
+    --popover: 220 6% 12%;
+    /* #1a1b22 - Dark popover background */
+    --popover-foreground: 220 13% 95%;
+    --primary: 187 100% 42%;
+    /* #00d8ff - Bright cyan */
+    --primary-foreground: 225 6% 6%;
+    /* Same as background */
+    --secondary: 187 92% 26%;
+    /* #007a8f - Darker cyan */
+    --secondary-foreground: 220 13% 95%;
+    --muted: 220 6% 12%;
+    /* Dark muted background */
+    --muted-foreground: 220 13% 65%;
+    /* Brighter for readability */
+    --accent: 187 100% 50%; 
+    /* #00e6ff - Brightest cyan */
+    --accent-foreground: 225 6% 6%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 13% 95%;
+    --border: 220 6% 15%;
+    /* #1e1f27 - Darker border */
+    --input: 220 6% 15%;
+    --ring: 187 100% 42%;
+    /* Match primary cyan */
+    --radius: 0.5rem;
+  }
+
+
+
+  @layer base {
+    * {
+      @apply border-border !scroll-smooth;
+    }
+
+    body {
+      @apply bg-background text-foreground;
+    }
+
+    button {
+      @apply active:outline-none;
+    }
+  }
+
+  @layer utilities {
+    .heading {
+      @apply font-bold text-4xl md:text-5xl text-center;
+    }
+  }
+}

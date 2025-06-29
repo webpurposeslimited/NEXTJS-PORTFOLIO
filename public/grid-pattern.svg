@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.5">
+      <rect x="0.5" y="0.5" width="19" height="19"></rect>
+      <line x1="10" y1="0" x2="10" y2="20"></line>
+      <line x1="0" y1="10" x2="20" y2="10"></line>
+    </g>
+  </g>
+</svg>
