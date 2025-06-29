@@ -1,7 +1,7 @@
 # NEXTJS-PORTFOLIO
 # Personal Portfolio Website
 
-
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N01H8FBW)
 [PREVIEW](https://nextjs-portfolio-nu-gules-61.vercel.app/)
 
 A modern, responsive personal portfolio website built with Next.js and React. This portfolio showcases skills, projects, and professional experience with a clean, interactive user interface.
