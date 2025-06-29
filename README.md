@@ -1,6 +1,9 @@
 # NEXTJS-PORTFOLIO
 # Personal Portfolio Website
 
+
+# [PREVIEW]([https://webpurposes.co](https://nextjs-portfolio-nu-gules-61.vercel.app/))
+
 A modern, responsive personal portfolio website built with Next.js and React. This portfolio showcases skills, projects, and professional experience with a clean, interactive user interface.
 
 
@@ -93,7 +96,7 @@ The `index.ts` file in the `data` directory is the central location for all webs
 
 ## Credits
 
-Designed and developed by [Webpurposes Ltd](https://webpurposes.co)
+Designed and developed by [Webpurposes Limited](https://webpurposes.co)
 
 ## License
 
