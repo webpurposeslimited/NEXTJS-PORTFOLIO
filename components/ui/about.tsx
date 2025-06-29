@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { IconCalendar, IconBriefcase, IconCode, IconSchool, IconBooks } from "@tabler/icons-react";
+import Image from "next/image";
 
 import { workExperience, educationData, aboutContent, skills } from "@/data";
 
@@ -169,9 +170,11 @@ export function About() {
                         <div className="flex items-start justify-between mb-3">
                           <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-md overflow-hidden flex-shrink-0 bg-gradient-to-br from-accentColors-primary/20 to-accentColors-secondary/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <img 
+                              <Image 
                                 src={exp.thumbnail} 
                                 alt={exp.company} 
+                                width={24} 
+                                height={24} 
                                 className="w-6 h-6 object-contain" 
                               />
                             </div>
