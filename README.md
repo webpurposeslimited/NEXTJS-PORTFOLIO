@@ -1,8 +1,10 @@
 # NEXTJS-PORTFOLIO
 # Personal Portfolio Website
 
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N01H8FBW)
 
+![{EE7C9286-20EA-4978-B3BD-0894E9241A02}](https://github.com/user-attachments/assets/90287904-03bd-4ea7-b715-19820931679e)
 
 
 
