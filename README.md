@@ -10,6 +10,9 @@
 
 [PREVIEW](https://nextjs-portfolio-nu-gules-61.vercel.app/)
 
+![{1C63A926-11E6-4C42-AE17-9D20B4DFE22E}](https://github.com/user-attachments/assets/0af97954-c84c-4162-829b-3904eefa9197)
+
+
 A modern, responsive personal portfolio website built with Next.js and React. This portfolio showcases skills, projects, and professional experience with a clean, interactive user interface.
 
 
